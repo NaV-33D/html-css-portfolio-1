@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveed Sayed | Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="Portfolio of Naveed Sayed, a Frontend Developer specializing in HTML, CSS, JavaScript, and Python.">
+    <meta name="keywords" content="Naveed Sayed, Frontend Developer, HTML, CSS, JavaScript, Python">
+</head>
+<body>
+   <nav id="desktop-nav">
+     <div class="logo">N@VEED</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skill">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+   </nav>
+
+   <nav id="hamburger-nav">
+    <div class="logo">N@VEED</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+            <li><a href="#education" onclick="toggleMenu()">EDUCATION</a></li>
+            <li><a href="#skill" onclick="toggleMenu()">SKILLS</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>  
+        </div>
+    </div>
+   </nav>
+<section id="profile">
+    <p class="section-text">Hello, I'm</p>
+    <h1 class="name">NAVEED SAYED</h1>
+    <p class="section-text">Desire to be,</p>
+    <p class="section-text-2">Frontend Developer</p>
+    
+<div class="btn-container">
+    <button class="btn" aria-label="Download CV" onclick="window.open('NaveedResume.pdf')">Download CV</button>
+    <button class="btn" aria-label="Contact Me" onclick="location.href = '#contact'">Let's Talk</button>    
+</div>
+    <div class="home-sci">
+        <a href="https://www.instagram.com/_naveed_sayed/" target="_blank"><i class='bx bxl-instagram-alt' aria-label="Instagram"></i></a>
+        <a href="https://www.linkedin.com/in/naveed-sayed88" target="_blank"><i class='bx bxl-linkedin' aria-label="LinkedIn"></i></a>
+        <a href="https://x.com/Naveed_Sayed01" target="_blank"><i class='bx bxl-twitter' aria-label="Twitter"></i></a> 
+    </div>
+</div>
+</section>
+
+<section id="about">
+    <p class="section-text" id="p2">Get to know more</p>
+<h2 style="color: gray;">About <span class="span">Me!</span></h2>
+<div class="about-container">
+    <div class="about-container-1">
+        <div class="experinece"><h3>Project's</h3></div>
+        <ul class="lst-items">
+        <li>An E-Commerce website for cotton Industry </li>
+        <li>An website for HDMC login page </li>
+        <li>Personal Portfolio</li>
+        <li>Dark mode's and pop-up ads</li>
+        </ul>
+    </div>
+    <div class="about-container-2">
+        <div class="education-1"><h3>Hobby's</h3></div>
+        <ul class="lst-items">
+            <li>Reading</li>
+            <li>Coding Project</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+    </div>
+</div>
+<div class="p">
+        <p class="about-text">"I'm deeply passionate about learning and exploring the 
+            ever-evolving world of frontend development. With a 
+            strong desire to master new concepts and technologies, 
+            I continuously push the boundaries of my knowledge. As 
+            a frontend developer, I combine this drive for learning
+        with creativity to craft engaging and seamless user interfaces that leave a lasting impact.</P>
+</div>
+</section>
+<section class="education" id="education">
+    <h2 style="color: gray;">My <span class="span">Journey!</span></h2>
+<div class="education-row">
+    <div class="education-column">
+        <h3 class="title">Education</h3>
+     <div class="education-box">
+        <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2021-2025</i></div>
+                <h6>Degree - Bachelor of Engineering(ECE)</h6>
+                <P>"AGMR College Of Engineering"<br>In Pursuit Of Excellence Through Engineering!</P>
+            </div>
+        </div>
+
+      <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2019-2021</i></div>
+                <h6>PU - PreUniversity</h6>
+                <P>"KH PATIL PU-SCIENCE College"<br>
+                I Have Done My Puc In Science From KH Patil College Of Hubli</P>
+            </div>
+        </div>
+
+        <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2009-2019</i></div>
+                <h6>School(CBSE)</h6>
+                <P>"ST. ANTONY PUBLIC SCHOOL(CBSE)"<br>
+                    I Have Completed My Schooling From st antony school</P>
+            </div>
+        </div>
+     </div> 
+    </div>
+<!---internship-->
+    <div class="education-column">
+        <h3 class="title">Internships/Courses</h3>
+     <div class="education-box">
+        <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2023</i></div>
+                <h6>GIT Hubli</h6>
+                <P>"FULLSTACK WEB DEVELOPMENT"<br>
+                Internship With Projects and Certificates From GIT Hubli</P>
+            </div>
+        </div>
+
+      <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2023</i></div>
+                <h6>FreeCodeCamp</h6>
+                <P>"LEARNT HTML AND CSS!"<br>
+                    Learnt Basics To Adavance Of HTML and CSS
+                     Along with Certificates
+                </P>
+            </div>
+        </div>
+
+        <div class="education-content">
+            <div class="content">
+                <div class="year"><i class='bx bxs-calendar'>2023</i></div>
+                <h6>Infosys And W3school</h6>
+                <P>"BEGINER TO INTERMEDIATE OF JAVASCRIPT"<br>
+                Learnt Essential javascript Along With Certificates And Projects</P>
+            </div>
+        </div>
+     </div> 
+    </div>
+</div>
+</section>
+<section class="skills" id="skill">
+    <h2 style="color: gray;text-align: center;">My <span class="span">Sk!lls</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+             <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                         <h3>CSS <span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>JAVASCRIPT <span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>PYTHON (DJANGO FRAMEWORK)<span>55%</span> </h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                </div>
+             </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">TECHNICAL Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>COMMUNICATION (both verbal and written)<span>98%</span> </h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>LEADERSHIP AND TEAM WORK <span>90%</span> </h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>TIME MANAGMENT AND ORGANIZATION<span>85%</span> </h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>ADAPTABILITY AND FLEXIBILITY<span>85%</span> </h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+<section id="contact">
+    <p class="section-text">Get in Touch</p>
+    <h2>Contact <span>Me</span></h2>
+    <div class="contact-container">
+        <div class="contact-link">
+            <i></i>
+            <p><a href="mailto:naveedsayed88@gmail.com">naveedsayed88@gmail.com</a></p>
+        </div>
+        <div class="contact-link">
+            <p><a href="https://www.linkedin.com/in/naveed-sayed88">LinkedIN</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+<nav>
+    <ul class="nav-links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skill">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</nav>
+<p>Copyright &#169; 2024 Naveed Sayed. All Rights Rserved</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
